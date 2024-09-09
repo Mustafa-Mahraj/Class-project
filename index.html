@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal-Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        .poppins-regular {
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body class="poppins-regular">
+    <header class="pt-10 bg-[#F9F9FC]">
+        <!-- Nav Bar Section -->
+        <nav class="max-w-screen-2xl mx-auto flex justify-between mb-14 px-8">
+            <div class="flex gap-2 justify-center items-center">
+                <div class="bg-[#5E3BEE] rounded-full py-2 px-3  text-base font-semibold text-white" >
+                    <h2>A</h2>
+                </div>
+                <h3 class="text-[#5E3BEE] font-bold text-2xl">PORTOSTAR</h3>
+            </div>
+
+            <ul class="hidden lg:flex md:gap-12 text-[#000000 ]">
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT US</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">WORKS</a></li>
+            </ul>
+            <button class="hidden md:flex justify-center items-center text-white gap-2 bg-[#5E3BEE] rounded-3xl py-2 px-5">
+                <h3>HIRE ME</h3>
+                <i class="fa-regular fa-envelope"></i>
+            </button>
+            <div class="md:hidden">
+                <i class="fa-solid fa-bars fa-xl"></i>
+            </div>
+        </nav>
+        <!-- Banner section -->
+        <section class="max-w-screen-2xl mx-auto md:flex justify-between">
+            <!-- text div container -->
+            <div class="mt-20 md:mt-28 ">
+                <p class="text-lg text-[#5E3BEE] font-medium mb-8 text-center md:text-center">DAVID FLASH</p>
+                <h1 class="text-6xl font-bold text-[#333333] mb-8 text-center md:text-start">Hello, my <br>name’s David <br>I’m a graphic designer.</h1>
+                <div class="flex gap-6 ">
+                    <button class="flex justify-center items-center text-white gap-2 bg-[#5E3BEE] rounded-3xl py-5 px-9 mx-auto md:mx-0 mb-8">
+                        <h5>CONTACT ME</h5>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                    <button class="flex justify-center items-center text-black gap-2 bg-none rounded-3xl py-5 px-9 text-lg mx-auto md:mx-0 mb-8">
+                        <h5>DOWNLOAD CV</h5>
+                        <i class="fa-solid fa-download"></i>
+                    </button>
+
+                </div>
+            </div>
+            <!-- Image part -->
+             <div class="bg-[url('../Images/Avatar.png')] bg-cover bg-center px-8">
+                <img src="Images/hardy.png" alt="">
+             </div>
+        </section>
+    </header>
+</body>
+
+</html> 
